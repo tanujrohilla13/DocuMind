@@ -1,0 +1,40 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+*.user
+*.suo
+*.userprefs
+
+# Test results & coverage
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+*.coverage
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+
+# Secrets — NEVER commit these
+appsettings.*.local.json
+*.env
+.env*
+secrets.json
+
+# OS
+Thumbs.db
+.DS_Store
